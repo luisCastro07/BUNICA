@@ -23,6 +23,7 @@ namespace Microsoft.BotBuilderSamples.Bots
                 if (member.Id != turnContext.Activity.Recipient.Id)
                 {
                     await turnContext.SendActivityAsync(MessageFactory.Text($"Hola Innovador!"), cancellationToken);
+                    await turnContext.SendActivityAsync(MessageFactory.Text($"Cual es su nombre?"), cancellationToken);
 
           
                 }
