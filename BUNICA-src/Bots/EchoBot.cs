@@ -24,8 +24,6 @@ namespace Microsoft.BotBuilderSamples.Bots
                 {
                     await turnContext.SendActivityAsync(MessageFactory.Text($"Hola Innovador!"), cancellationToken);
                     await turnContext.SendActivityAsync(MessageFactory.Text($"Cual es su nombre?"), cancellationToken);
-
-          
                 }
             }
         }
